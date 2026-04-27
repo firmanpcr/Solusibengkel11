@@ -74,7 +74,7 @@ Route::get('visit', [PengunjungController::class, 'index'])->name('visit');
 
 // Mitra
 Route::get('mitra/create', [MitraController::class, 'create'])->name('mitra.create');
-@post('mitra/store', [MitraController::class, 'store'])->name('mitra.store');
+Route::post('mitra/store', [MitraController::class, 'store'])->name('mitra.store');
 Route::get('mitra/edit/{param1}', [MitraController::class, 'edit'])->name('mitra.edit');
 Route::post('mitra/update', [MitraController::class, 'update'])->name('mitra.update');
 Route::get('mitra/destroy/{param1}', [MitraController::class, 'destroy'])->name('mitra.destroy');
