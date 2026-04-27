@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('/assets/fonts/BlackOpsOne-Regular.ttf');
+}
+
+.BlackOpsOne-Regular{
+    font-family: 'MyCustomFont';
+}
+
+@font-face {
+        font-family: 'MyCustomFont';
+        src: url('/assets/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf');
+    }
+.PlayfairDisplay-Italic-VariableFont_wght{
+    font-family: 'MyCustomFont';
+}
